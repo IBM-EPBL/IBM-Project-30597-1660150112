@@ -1,6 +1,6 @@
 Download Training Dataset from the link.
 
-Inside Flowers-Dataset/flowers...Create new folder named "train".
+Inside Flowers-Dataset/flowers...Create new folder and rename it as "train".
 
 Cut folders - daisy, dandelion, rose, sunflower,tulip and paste inside train folder.
 
