@@ -61,6 +61,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     
+    
   }
   .button {
   background-color: #091425; 
@@ -148,6 +149,9 @@ span.psw {
   padding-left: 30px;  
   
 }
+.head{
+  font-size: 3rem;
+}
 .login{
 	margin:80px;
 	box-sizing: content-box;  
@@ -197,6 +201,10 @@ img {vertical-align: middle;}
 .active {
   background-color: #FCAD98;
 }
+.des{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 
 /* Fading animation */
 .fade {
@@ -239,7 +247,7 @@ body {
 }
 
 h1 {
-  font-family: "Montserrat Medium";
+  font-family: sans-serif;
   max-width: 90ch;
   text-align: center;
   transform: scale(0.94);
@@ -253,6 +261,7 @@ h1 {
 
 span {
   display: inline-block;
+  
   opacity: 0;
   filter: blur(4px);
 }
@@ -364,13 +373,18 @@ span:nth-child(23) {
 
 <body>
   
-  <h1>INTRODUCTION</h1>
+  <h1 class="head">INTRODUCTION</h1>
+  <br>
 <h1>
-  <span> Hand Gesture </span> <span> recognition system </span> <span> provides us </span > <span> an innovative,</span> <span>natural,</span> <span>  user friendly </span> <span> way of interaction </span > <span> with the computer</span>
-  <span> which is more </span> <span> familiar to the </span> <span>human beings. </span > <span> In our project, </span> <span> the hand region </span> <span> is extracted from </span> <span> the background  </span > <span> by using</span>
-<span> Region of intrest. </span> <span> Then, </span> <span> we will be </span > <span>predicting the labels </span> <span> based on the </span> <span> CNN trained model weights  </span> <span> of hand gestures </span > <span> using that predicted labels</span>
-<span> we apply if conditions </span> <span> to control some of the actions </span> <span>like </span > <span>reshaping , blur, flip of the given image.</span>
+  <div class="des">
+    <span> Hand Gesture </span> <span> recognition system </span> <span> provides us </span > <span> an innovative,</span> <span>natural,</span> <span>  user friendly </span> <span> way of interaction </span > <span> with the computer</span>
+    <span> which is more </span> <span> familiar to the </span> <span>human beings. </span > <span> In our project, </span> <span> the hand region </span> <span> is extracted from </span> <span> the background  </span > <span> by using</span>
+  <span> Region of intrest. </span> <span> Then, </span> <span> we will be </span > <span>predicting the labels </span> <span> based on the </span> <span> CNN trained model weights  </span> <span> of hand gestures </span > <span> using that predicted labels</span>
+  <span> we apply if conditions </span> <span> to control some of the actions </span> <span>like </span > <span>reshaping , blur, flip of the given image.</span>
+  
 
+  </div>
+ 
 </h1>
 <!--Brian Tracy-->
 
